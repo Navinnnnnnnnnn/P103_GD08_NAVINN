@@ -1,0 +1,4 @@
+repository "SHVFS_P101_GD08_Navin@navinnnnnnn@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
