@@ -1,0 +1,43 @@
+{
+    "name": "PlayerActions",
+    "maps": [
+        {
+            "name": "PlayerInput",
+            "id": "8f70a096-59cb-4a90-9b6f-063d61c21742",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Value",
+                    "id": "e85e109f-caa4-4b2d-a242-f0cd31c6b8d5",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "InteractPrimary",
+                    "type": "Button",
+                    "id": "23a1ae67-21db-41a6-8b79-d84cf5afc21e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b72287d0-4f6b-48c4-9a06-a85580d36206",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "InteractPrimary",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
